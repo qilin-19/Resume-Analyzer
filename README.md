@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 📄 简历评分分析器（Resume Analyzer）
 
 一个基于 **Next.js + LangChain + RAG** 的智能简历分析工具——上传简历、粘贴 JD，自动打分、对比技能、给出改进建议。
@@ -16,6 +15,16 @@
 | 💡 **改进建议** | 针对缺失技能和项目短板，给出具体可操作的优化方向 |
 | 📥 **结果导出** | 支持导出 **PDF**（精美排版）和 **Markdown**（便于存档对比） |
 | 📚 **RAG 增强** | 可编辑的资料库（`knowledge/`），让 LLM 参考你的评分标准 |
+
+---
+
+## 📸 分析报告预览
+
+用 `test-files/` 中的示例简历和 JD 跑出的分析报告：
+
+👉 **[查看示例 PDF 报告](docs/sample-report.pdf)**
+
+> 报告包含：综合评分环形图、技能命中/缺失对比、项目经历评估、优先级改进建议。
 
 ---
 
@@ -47,7 +56,7 @@
 ### 1. 克隆项目
 
 ```bash
-git clone <https://github.com/Frankwong-do/Resume-Analyzer>
+git clone https://github.com/Frankwong-do/Resume-Analyzer
 cd resume-analyzer
 ```
 
@@ -109,6 +118,8 @@ resume-analyzer/
 ├── test-files/                 # 🧪 测试用文件
 │   ├── sample-resume.md        # 示例简历
 │   └── sample-jd.md            # 示例 JD
+├── docs/                       # 📸 文档 & 预览
+│   └── sample-report.pdf       # 示例分析报告 PDF
 └── package.json
 ```
 
@@ -145,10 +156,18 @@ resume-analyzer/
 
 ---
 
+## 🎓 适合写在简历里
+
+如果你想把这个项目写进自己的简历，可以这样描述：
+
+> **简历智能分析平台** —— 独立全栈项目
+> - 基于 Next.js + LangChain 搭建，集成 DeepSeek 大模型实现 JD 技能智能提取
+> - 使用 RAG 架构加载可配置资料库，提升分析准确率和可解释性
+> - 支持 .docx 解析、多维度打分（技能+项目）、PDF/Markdown 导出
+> - 采用 Server Action 保护 API Key，关键词匹配作为 LLM 降级兜底方案
+
+---
 
 ## 📝 License
 
 MIT
-=======
-# Resume-Analyzer
->>>>>>> c7afe77d6c5823d19816849067d63b096a2dbe65
