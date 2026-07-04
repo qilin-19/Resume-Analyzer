@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📄 简历评分分析器（Resume Analyzer）
 
 一个基于 **Next.js + LangChain + RAG** 的智能简历分析工具——上传简历、粘贴 JD，自动打分、对比技能、给出改进建议。
@@ -144,18 +145,10 @@ resume-analyzer/
 
 ---
 
-## 🎓 适合写在简历里
-
-如果你想把这个项目写进自己的简历，可以这样描述：
-
-> **简历智能分析平台** —— 独立全栈项目
-> - 基于 Next.js + LangChain 搭建，集成 DeepSeek 大模型实现 JD 技能智能提取
-> - 使用 RAG 架构加载可配置资料库，提升分析准确率和可解释性
-> - 支持 .docx 解析、多维度打分（技能+项目）、PDF/Markdown 导出
-> - 采用 Server Action 保护 API Key，关键词匹配作为 LLM 降级兜底方案
-
----
 
 ## 📝 License
 
 MIT
+=======
+# Resume-Analyzer
+>>>>>>> c7afe77d6c5823d19816849067d63b096a2dbe65
